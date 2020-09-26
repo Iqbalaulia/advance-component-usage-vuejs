@@ -7,7 +7,7 @@
         <div class="col-md-12">
           <Quote>
             <h2 slot="title">{{ quoteTitle }}</h2>
-            <p slot="content">A wonderful Quote</p>
+            <p>A wonderful Quote</p>
           </Quote>
         </div>
       </div>

@@ -4,10 +4,11 @@
     <!-- Passing component tag html from parent to child use slot  -->
     <div class="title">
       <slot name="title"></slot>
+      <span><slot name="subtitle">The Subtitle</slot></span>
     </div>
     <hr />
     <div>
-      <slot name="content"></slot>
+      <slot></slot>
     </div>
   </div>
 </template>
@@ -39,5 +40,8 @@ h2 {
 
 .title {
   font-style: italic;
+}
+span {
+  color: #ccc;
 }
 </style>
