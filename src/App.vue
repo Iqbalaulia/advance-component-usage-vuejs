@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-md-12">
           <Quote>
-            <h2>The Quote</h2>
+            <h2>{{ quoteTitle }}</h2>
             <p>A wonderful Quote</p>
           </Quote>
         </div>
@@ -24,6 +24,11 @@ export default {
   components: {
     Quote,
     // HelloWorld
+  },
+  data() {
+    return {
+      quoteTitle: "The Quote",
+    };
   },
 };
 </script>

@@ -1,7 +1,7 @@
 
 <template>
   <div id="quote">
-    <!-- Passing component tag html from parent to child use slot -->
+    <!-- Passing component tag html from parent to child use slot  -->
     <slot></slot>
   </div>
 </template>
@@ -24,5 +24,10 @@ div {
   padding: 30px;
   margin: 30px auto;
   text-align: center;
+}
+
+/* styling must be on child component */
+h2 {
+  color: red;
 }
 </style>
