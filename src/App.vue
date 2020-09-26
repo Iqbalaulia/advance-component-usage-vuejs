@@ -6,8 +6,8 @@
       <div class="row">
         <div class="col-md-12">
           <Quote>
-            <h2>{{ quoteTitle }}</h2>
-            <p>A wonderful Quote</p>
+            <h2 slot="title">{{ quoteTitle }}</h2>
+            <p slot="content">A wonderful Quote</p>
           </Quote>
         </div>
       </div>

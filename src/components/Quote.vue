@@ -2,7 +2,13 @@
 <template>
   <div id="quote">
     <!-- Passing component tag html from parent to child use slot  -->
-    <slot></slot>
+    <div class="title">
+      <slot name="title"></slot>
+    </div>
+    <hr />
+    <div>
+      <slot name="content"></slot>
+    </div>
   </div>
 </template>
 
@@ -29,5 +35,9 @@ div {
 /* styling must be on child component */
 h2 {
   color: red;
+}
+
+.title {
+  font-style: italic;
 }
 </style>
