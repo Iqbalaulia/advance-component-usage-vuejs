@@ -1,6 +1,7 @@
 
 <template>
   <div id="quote">
+    <!-- Passing component tag html from parent to child use slot -->
     <slot></slot>
   </div>
 </template>
